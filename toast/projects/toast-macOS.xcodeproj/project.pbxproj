@@ -34,6 +34,7 @@
 		04969D6A2E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
 		04969D6B2E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
 		04969D6C2E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
+		04969D6E2E60AE7B000935A4 /* EnvelopeFollower.h in Headers */ = {isa = PBXBuildFile; fileRef = 04969D6D2E60AE7B000935A4 /* EnvelopeFollower.h */; };
 		4F0848292015129A00F9E881 /* IPlugAAX_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0848252015129300F9E881 /* IPlugAAX_Parameters.cpp */; };
 		4F0AB11B259C04BB00653315 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 4FC46E57231440B4000045E7 /* web */; };
 		4F0AB11C259C050300653315 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 4FC46E57231440B4000045E7 /* web */; };
@@ -295,6 +296,7 @@
 /* Begin PBXFileReference section */
 		04969D622E60AB7D000935A4 /* THD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THD.h; sourceTree = "<group>"; };
 		04969D632E60AB7D000935A4 /* THD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = THD.cpp; sourceTree = "<group>"; };
+		04969D6D2E60AE7B000935A4 /* EnvelopeFollower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnvelopeFollower.h; sourceTree = "<group>"; };
 		4F05C5A82082424400DD1621 /* IPlugWAM.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = IPlugWAM.h; path = ../../iPlug2/IPlug/WEB/IPlugWAM.h; sourceTree = "<group>"; tabWidth = 2; };
 		4F05C5A92082424400DD1621 /* IPlugWAM.cpp */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; name = IPlugWAM.cpp; path = ../../iPlug2/IPlug/WEB/IPlugWAM.cpp; sourceTree = "<group>"; tabWidth = 2; };
 		4F0848252015129300F9E881 /* IPlugAAX_Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; name = IPlugAAX_Parameters.cpp; path = ../../iPlug2/IPlug/AAX/IPlugAAX_Parameters.cpp; sourceTree = "<group>"; tabWidth = 2; };
@@ -673,10 +675,11 @@
 			isa = PBXGroup;
 			children = (
 				52FBBED30D0CF143001C8B8A /* config.h */,
+				4F3862ED2014BBEC0009F402 /* toast.cpp */,
 				4F3862EE2014BBEC0009F402 /* toast.h */,
 				04969D622E60AB7D000935A4 /* THD.h */,
 				04969D632E60AB7D000935A4 /* THD.cpp */,
-				4F3862ED2014BBEC0009F402 /* toast.cpp */,
+				04969D6D2E60AE7B000935A4 /* EnvelopeFollower.h */,
 				4F9313232315CA1100DB2383 /* README.md */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				32C88E010371C26100C91783 /* Other Sources */,
@@ -1357,6 +1360,7 @@
 				04969D672E60AB7D000935A4 /* THD.h in Headers */,
 				4FA0FB17247D4D2B00E25C73 /* IPlugWebViewEditorDelegate.h in Headers */,
 				4F78BE1222E73DD900AD537E /* AUv3Framework.h in Headers */,
+				04969D6E2E60AE7B000935A4 /* EnvelopeFollower.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>toast</string>
 	<key>CFBundleGetInfoString</key>
-	<string>toast v1.0.0 Copyright 2020 Acme Inc</string>
+	<string>toast v1.0.0 Copyright 2026 Cali &amp; Co</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.calico.app.toast.AUv3</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -34,26 +34,26 @@
 					<key>description</key>
 					<string>toast</string>
 					<key>manufacturer</key>
-					<string>Acme</string>
+					<string>Cali</string>
 					<key>name</key>
 					<string>calico: toast</string>
 					<key>sandboxSafe</key>
 					<true/>
 					<key>subtype</key>
-					<string>0Zru</string>
+					<string>G2FE</string>
 					<key>tags</key>
 					<array>
 						<string>Effects</string>
 					</array>
 					<key>type</key>
-					<string>aumf</string>
+					<string>aufx</string>
 					<key>version</key>
 					<integer>65536</integer>
 				</dict>
 			</array>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.AudioUnit-UI</string>
+		<string>com.apple.AudioUnit</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>IPlugAUViewController_vtoast</string>
 	</dict>
