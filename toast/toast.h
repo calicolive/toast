@@ -40,6 +40,8 @@ public:
     void OnReset() override;
     void OnParamChange(int paramIdx) override;
     void OnActivate(bool active) override;
+    
+    void OnIdle() override;
 
 private:
   iplug::IPeakSender<2> mSender;

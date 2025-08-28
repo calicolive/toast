@@ -15,16 +15,16 @@ toast::toast(const InstanceInfo& info)
     GetParam(kParamMix)->InitDouble("Mix", 100.0, 0.0, 100.0, 0.1, "%");
     GetParam(kParamOutput)->InitDouble("Output", 0.0, -12.0, 12.0, 0.1, "dB");
     GetParam(kParamLinkGain)->InitBool("Link", true);
-//#ifdef DEBUG
-//  SetCustomUrlScheme("iplug2");
-//  SetEnableDevTools(true);
-//#endif
+#ifdef DEBUG
+  SetCustomUrlScheme("iplug2");
+  SetEnableDevTools(true);
+#endif
   
-//  mEditorInitFunc = [&]() {
-//     LoadIndexHtml(__FILE__, GetBundleID());
-//      LoadURL("http://localhost:5173/");
-//    EnableScroll(false);
-//  };
+  mEditorInitFunc = [&]() {
+     LoadIndexHtml(__FILE__, GetBundleID());
+      LoadURL("http://localhost:5173/");
+    EnableScroll(false);
+  };
 }
 
 void toast::ProcessBlock(sample** inputs, sample** outputs, int nFrames)
@@ -162,12 +162,13 @@ void toast::ProcessBlock(sample** inputs, sample** outputs, int nFrames)
         }
     }
     
-    // Pass through additional channels
+    // Pass through      additional channels
     for (int c = nChans; c < NOutChansConnected(); c++) {
         for (int s = 0; s < nFrames; s++) {
             outputs[c][s] = (c < NInChansConnected()) ? inputs[c][s] : 0.0;
         }
     }
+    mSender.ProcessBlock(outputs, nFrames, kCtrlTagMeter);
 }
 
 void toast::OnReset()
@@ -311,7 +312,7 @@ void toast::OnParamChange(int paramIdx){
     }
 }
 
-//void toast::OnIdle()
-//{
-//  mSender.TransmitData(*this);
-//}
+void toast::OnIdle()
+{
+  mSender.TransmitData(*this);
+}
