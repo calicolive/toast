@@ -25,6 +25,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		04969D642E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
+		04969D652E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
+		04969D662E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
+		04969D672E60AB7D000935A4 /* THD.h in Headers */ = {isa = PBXBuildFile; fileRef = 04969D622E60AB7D000935A4 /* THD.h */; };
+		04969D682E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
+		04969D692E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
+		04969D6A2E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
+		04969D6B2E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
+		04969D6C2E60AB7D000935A4 /* THD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04969D632E60AB7D000935A4 /* THD.cpp */; };
 		4F0848292015129A00F9E881 /* IPlugAAX_Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0848252015129300F9E881 /* IPlugAAX_Parameters.cpp */; };
 		4F0AB11B259C04BB00653315 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 4FC46E57231440B4000045E7 /* web */; };
 		4F0AB11C259C050300653315 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 4FC46E57231440B4000045E7 /* web */; };
@@ -284,6 +293,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04969D622E60AB7D000935A4 /* THD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THD.h; sourceTree = "<group>"; };
+		04969D632E60AB7D000935A4 /* THD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = THD.cpp; sourceTree = "<group>"; };
 		4F05C5A82082424400DD1621 /* IPlugWAM.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = IPlugWAM.h; path = ../../iPlug2/IPlug/WEB/IPlugWAM.h; sourceTree = "<group>"; tabWidth = 2; };
 		4F05C5A92082424400DD1621 /* IPlugWAM.cpp */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; name = IPlugWAM.cpp; path = ../../iPlug2/IPlug/WEB/IPlugWAM.cpp; sourceTree = "<group>"; tabWidth = 2; };
 		4F0848252015129300F9E881 /* IPlugAAX_Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; name = IPlugAAX_Parameters.cpp; path = ../../iPlug2/IPlug/AAX/IPlugAAX_Parameters.cpp; sourceTree = "<group>"; tabWidth = 2; };
@@ -663,6 +674,8 @@
 			children = (
 				52FBBED30D0CF143001C8B8A /* config.h */,
 				4F3862EE2014BBEC0009F402 /* toast.h */,
+				04969D622E60AB7D000935A4 /* THD.h */,
+				04969D632E60AB7D000935A4 /* THD.cpp */,
 				4F3862ED2014BBEC0009F402 /* toast.cpp */,
 				4F9313232315CA1100DB2383 /* README.md */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -1341,6 +1354,7 @@
 				6FFBD2B52CEF58CF003D75F0 /* IPlugWKWebViewDelegate.h in Headers */,
 				6FFBD2B62CEF58CF003D75F0 /* IPlugWKWebViewUIDelegate.h in Headers */,
 				6FFBD2B72CEF58CF003D75F0 /* IPlugWKWebViewScriptMessageHandler.h in Headers */,
+				04969D672E60AB7D000935A4 /* THD.h in Headers */,
 				4FA0FB17247D4D2B00E25C73 /* IPlugWebViewEditorDelegate.h in Headers */,
 				4F78BE1222E73DD900AD537E /* AUv3Framework.h in Headers */,
 			);
@@ -1843,6 +1857,7 @@
 				4F78D9BB13B63BA50032E0F3 /* IPlugAPIBase.cpp in Sources */,
 				4F3F6E552CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */,
 				4F993F7223055C96000313AF /* IPlugProcessor.cpp in Sources */,
+				04969D6B2E60AB7D000935A4 /* THD.cpp in Sources */,
 				4F35DEAE207E5C5A00867D8F /* IPlugPluginBase.cpp in Sources */,
 				4F78D9C813B63BA50032E0F3 /* IPlugParameter.cpp in Sources */,
 				6FFBD2D12CEF5900003D75F0 /* IPlugWebViewEditorDelegate.mm in Sources */,
@@ -1853,6 +1868,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04969D6C2E60AB7D000935A4 /* THD.cpp in Sources */,
 				4F78BE3222E7429B00AD537E /* IPlugAUv3Appex.m in Sources */,
 				6FFBD2D52CEF5900003D75F0 /* IPlugWebViewEditorDelegate.mm in Sources */,
 			);
@@ -1871,6 +1887,7 @@
 				4FD52136202A5BD000A4D22A /* dfx-au-utilities.c in Sources */,
 				4F5F344420C0226200487201 /* IPlugPaths.mm in Sources */,
 				4F35DEB0207E5C5A00867D8F /* IPlugPluginBase.cpp in Sources */,
+				04969D652E60AB7D000935A4 /* THD.cpp in Sources */,
 				6FFBD2D22CEF5900003D75F0 /* IPlugWebViewEditorDelegate.mm in Sources */,
 				4F78D95C13B63BA50032E0F3 /* IPlugParameter.cpp in Sources */,
 				4F3862F22014BBEC0009F402 /* toast.cpp in Sources */,
@@ -1902,6 +1919,7 @@
 				4F3EE1D9231438D000004786 /* RtAudio.cpp in Sources */,
 				4F3EE1DB231438D000004786 /* IPlugAPP_main.cpp in Sources */,
 				4F3EE1DE231438D000004786 /* toast.cpp in Sources */,
+				04969D642E60AB7D000935A4 /* THD.cpp in Sources */,
 				4F3EE1E0231438D000004786 /* IPlugAPIBase.cpp in Sources */,
 				4F3EE1E1231438D000004786 /* IPlugPluginBase.cpp in Sources */,
 				4F3EE1E3231438D000004786 /* swell-gdi.mm in Sources */,
@@ -1920,6 +1938,7 @@
 				4F0D965C23099F6900BFDED0 /* IPlugProcessor.cpp in Sources */,
 				4F78BE1522E7406D00AD537E /* toast.cpp in Sources */,
 				4F78BE2222E7406D00AD537E /* IPlugAUAudioUnit.mm in Sources */,
+				04969D662E60AB7D000935A4 /* THD.cpp in Sources */,
 				4F78BE2322E7406D00AD537E /* IPlugAUv3.mm in Sources */,
 				4F78BE2422E7406D00AD537E /* IPlugAUViewController.mm in Sources */,
 				4F78BE2522E7406D00AD537E /* IPlugPluginBase.cpp in Sources */,
@@ -1940,6 +1959,7 @@
 				4F3862F12014BBEC0009F402 /* toast.cpp in Sources */,
 				4F81591F205D50EB00393585 /* pluginfactory.cpp in Sources */,
 				4F815973205D50EB00393585 /* vstinitiids.cpp in Sources */,
+				04969D692E60AB7D000935A4 /* THD.cpp in Sources */,
 				4F81597E205D50EB00393585 /* fdebug.cpp in Sources */,
 				4F9828B8140A9EB700F3FCC1 /* IPlugAPIBase.cpp in Sources */,
 				4F81597F205D50EB00393585 /* fdynlib.cpp in Sources */,
@@ -1988,6 +2008,7 @@
 				4FDAC0EE207D76C600299363 /* IPlugTimer.cpp in Sources */,
 				4FB6001A1567CB0A0020189A /* IPlugAPIBase.cpp in Sources */,
 				4F35DEB1207E5C5A00867D8F /* IPlugPluginBase.cpp in Sources */,
+				04969D6A2E60AB7D000935A4 /* THD.cpp in Sources */,
 				4F5F344520C0226200487201 /* IPlugPaths.mm in Sources */,
 				4F1A5285205D914A00CF2908 /* IPlugAAX.cpp in Sources */,
 				4F0848292015129A00F9E881 /* IPlugAAX_Parameters.cpp in Sources */,
@@ -2023,6 +2044,7 @@
 				4FAFFE5821495A4800A6E72D /* RtAudio.cpp in Sources */,
 				4F690C9B203A345100A4A13E /* IPlugAPP_main.cpp in Sources */,
 				4F3862EF2014BBEC0009F402 /* toast.cpp in Sources */,
+				04969D682E60AB7D000935A4 /* THD.cpp in Sources */,
 				4F78D90B13B63BA50032E0F3 /* IPlugAPIBase.cpp in Sources */,
 				4F35DEAD207E5C5A00867D8F /* IPlugPluginBase.cpp in Sources */,
 				4FF0A83221BE708700B2C9D1 /* swell-gdi.mm in Sources */,
